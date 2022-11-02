@@ -1,7 +1,11 @@
 const http=require('http');
 const fs=require('fs');
 
-const aboutPage=fs.readFileSync('about.html');
+const aboutPage=fs.readFile('about.html',(file)=>{
+
+});
+
+// Non blocking
 const contactPage=fs.readFileSync('contact.html');
 const homePage=fs.readFileSync('index.html');
 
