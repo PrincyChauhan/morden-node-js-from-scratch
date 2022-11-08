@@ -13,6 +13,7 @@
   "author": "Princy Chauhan",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "express-edge": "^2.0.2"
   }
 }
